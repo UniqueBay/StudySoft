@@ -50,26 +50,26 @@
         <!-- FORM CONTAINER-->
         <div class="box">
           <h2>Contact Form</h2>
-          <form
-          action="https://formspree.io/f/meqvlrdb"
-          method="POST"
-          >
+          <form action="https://formspree.io/f/meqvlrdb" method="POST">
             <div class="inputBox">
-              <input type="text" name="" required />
+              <input type="text" name="fullname" required />
               <label>Full name:</label>
             </div>
             <div class="inputBox">
-              <input type="email" name="" required />
+              <input type="email" name="_replyto" required />
               <label>Email:</label>
             </div>
             <div class="inputBox">
-              <input type="tel" name="" required />
+              <input type="tel" name="phone-number" required />
               <label>Phone no:</label>
             </div>
             <div class="message inputBox">
-              <textarea placeholder="Tell us how we can serve you"></textarea>
+              <textarea
+                placeholder="Tell us how we can serve you"
+                required
+              ></textarea>
             </div>
-            <input type="submit" name="" value="Send message" />
+            <input type="submit" name="submitbutton" value="Send message" />
           </form>
         </div>
         <!-- MY CONTACT INFO -->
