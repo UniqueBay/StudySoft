@@ -1,0 +1,120 @@
+/* RESET DEFAULT STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.technical-skills {
+  margin: 4% 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.skills-bar {
+  width: 60%;
+  background: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 25px 30px;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+  margin-top: 0px;
+}
+
+.skills-bar .bar .info {
+  margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+    0px 1px rgba(255, 255, 255, 0.8);
+}
+
+.skills-bar .bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.skills-bar .bar .progress-line.chemistry span {
+  width: 96%;
+}
+.skills-bar .bar .progress-line.phonics span {
+  width: 98%;
+}
+.skills-bar .bar .progress-line.math span {
+  width: 96%;
+}
+.skills-bar .bar .progress-line.physics span {
+  width: 100%;
+}
+
+.skills-bar .bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+}
+
+.skills-bar .bar .progress-line span::after {
+  position: absolute;
+  content: "80%";
+  right: 0;
+  top: -28px;
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.skills-bar .bar .progress-line.chemistry span::after {
+  content: "96%";
+}
+.skills-bar .bar .progress-line.phonics span::after {
+  content: "98%";
+}
+.skills-bar .bar .progress-line.math span::after {
+  content: "96%";
+}
+.skills-bar .bar .progress-line.physics span::after {
+  content: "100%";
+}
