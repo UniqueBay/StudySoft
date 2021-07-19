@@ -17,6 +17,9 @@ body {
   display: flex;
   margin: 2% 8%;
 }
+a {
+  text-decoration: none;
+}
 
 .intro {
   /* background: chartreuse; */
@@ -143,6 +146,20 @@ body {
 }
 
 @media (max-width: 900px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .services {
+    flex: 1;
+  }
+
+  .intro-icons i {
+    margin: 2px;
+  }
+}
+
+@media (max-width: 600px) {
   .info {
     flex-direction: column;
   }
