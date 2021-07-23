@@ -47,12 +47,6 @@ a {
   margin: 10px;
   /* padding: 10px; */
 }
-.service1 {
-  display: block;
-}
-.service2 {
-  display: block;
-}
 
 .private-lessons {
   /* background: chartreuse; */
@@ -170,6 +164,12 @@ a {
     flex-direction: column;
   }
 
+  .service1 {
+    display: block;
+  }
+  .service2 {
+    display: block;
+  }
   .services {
     flex: 1;
   }
