@@ -12,11 +12,11 @@ body {
 }
 
 /* MAIN SECTION */
-
 .info {
   display: flex;
   margin: 2% 8%;
 }
+
 a {
   text-decoration: none;
 }
@@ -151,11 +151,20 @@ a {
   }
 
   .services {
+    display: block;
     flex: 1;
+  }
+
+  .metacognition-training {
+    border-bottom: 1px solid;
   }
 
   .intro-icons i {
     margin: 2px;
+  }
+
+  .lone {
+    display: block;
   }
 }
 
@@ -167,14 +176,23 @@ a {
   .service1 {
     display: block;
   }
+
+  .metacognition-training {
+    border-bottom: 1px solid;
+  }
   .service2 {
     display: block;
   }
   .services {
+    display: block;
     flex: 1;
   }
 
   .intro-icons i {
     margin: 2px;
+  }
+
+  .lone {
+    display: block;
   }
 }

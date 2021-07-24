@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 3px;
+  font-size: large;
+  background: white;
+  color: dodgerblue;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: dodgerblue;
+}
+
+.footer .icons a i {
+  text-decoration: none;
+  color: dodgerblue;
+}
